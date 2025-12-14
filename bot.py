@@ -8,7 +8,7 @@ import time
 import random  # 💥 для крит-кликов и немного рандома
 
 # ================== НАСТРОЙКИ ==================
-TOKEN = os.getenv("8511292935:AAHxlzxFW_Jr4EnqcCh4jsAGOAALHM7KoL4")
+TOKEN = os.getenv("BOT_TOKEN")
 
 DATA_FILE = "game_data.json"
 
@@ -884,3 +884,4 @@ def fallback(message):
 if __name__ == "__main__":
     print("Bot is running...")
     bot.infinity_polling()
+
